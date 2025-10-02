@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Druk BB Gun | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet"> <!-- Your external CSS -->
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-transparent position-absolute w-100">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="home.html">Druk BB Gun</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-white" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="game.html">Games</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="rental.html">Gear & Rentals</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="rules.html">Safety & Rules</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="position-relative text-center text-light">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/Banner1.jpg" class="d-block w-100" alt="Banner 1">
+        <!-- Content Over Carousel (Only on the first banner) -->
+        <div class="hero-content position-absolute top-50 start-50 translate-middle text-center">
+          <h1 class="display-4 fw-bold">Experience Tactical Airsoft in Bhutan</h1>
+          <p class="lead">Affordable rentals • Exciting missions • Safe community</p>
+          <div class="mt-4">
+            <a href="#" class="btn btn-success m-2">WhatsApp</a>
+            <a href="#" class="btn btn-primary m-2">Facebook</a>
+            <a href="#" class="btn btn-danger m-2">Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/Banner2.jpg" class="d-block w-100" alt="Banner 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-4 fw-bold">First Ever BB Gun Arena in Bhutan</h5>
+          <p class="lead">Join the excitement and be part of Bhutan's premier tactical sports community.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/games.webp" class="d-block w-100" alt="Banner 3">
+        <div class="carousel-caption d-none d-md-block">
+           <h5 class="display-4 fw-bold">Grand Opening Special!</h5>
+          <p class="lead">Get 10% off your first booking and experience the thrill of the first-ever BB gun arena in Bhutan.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+<!-- ===== About Us Section with Image ===== -->
+<section id="about" class="container py-5">
+  <div class="row align-items-center">
+    <!-- Text Section -->
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="lead">
+        Welcome to Druk BB Gun, Bhutan’s premier airsoft arena. 
+        As the first of its kind in the region, we provide a platform for tactical sports, team-building, and community engagement in Thimphu. Our mission is to offer affordable rentals, foster a safe environment, and bring airsoft enthusiasts together to enjoy thrilling and strategic gameplay.
+      </p>
+      <div class="text-center mt-4">
+        <a href="about.html" class="btn btn-outline-dark">Learn More About Us</a>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="col-md-6">
+      <img src="images/AboutBanner.webp" alt="Druk BB Gun Arena" class="img-fluid rounded" style="max-width: 90%; height: auto;">
+    </div>
+  </div>
+</section>
+
+
+<!-- YouTube Video Embed -->
+<div class="row justify-content-center mt-4">
+    <div class="col-md-3"> <!-- 3/12 columns = quarter width -->
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/watch?v=RBLQ6Pe7rh0" 
+                title="Druk BB Gun Gameplay" 
+                allowfullscreen></iframe>
+      </div>
+    </div>
+</div>
+<br/> <br/>
+
+<!-- ===== Why Choose Us Section ===== -->
+<section id="why-choose" class="bg-light py-5" style="background-image: url('images/why.jpg'); background-size: cover; background-position: center;">
+  <div class="container">
+    <h2 class="text-center">Why Choose Us</h2> 
+    <br/>
+    <div class="row text-center mt-4">
+      <div class="col-md-3">
+        <i class="fas fa-wallet fa-2x"></i>
+        <h4>Affordable Rentals</h4>
+      </div>
+      <div class="col-md-3">
+        <i class="fas fa-shield-alt fa-2x"></i>
+        <h4>Safe & Guided Play</h4>
+      </div>
+      <div class="col-md-3">
+        <i class="fas fa-gamepad fa-2x"></i>
+        <h4>Fun Game Modes</h4>
+      </div>
+      <div class="col-md-3">
+        <i class="fas fa-users fa-2x"></i>
+        <h4>Community Building</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ===== Games Overview Section ===== -->
+<section id="games" class="container py-5">
+  <div class="row align-items-center">
+    <!-- Image on the left -->
+    <div class="col-md-6">
+      <img src="images/games1.jpg" alt="Game Image" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-center">Game Modes</h2>
+      <p class="text-center">From Team Deathmatch to Fort Wars, choose your tactical challenge.</p>
+      <div class="text-center">
+        <a href="games.html" class="btn btn-outline-dark">View All Games</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Gear & Rentals Section ===== -->
+<section id="gear" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center">Gear & Rentals</h2>
+    <div class="row text-center mt-4">
+      <div class="col-md-4">
+        <p>Gun Rental – Nu. 500/day</p>
+        <img src="images/gun.jpg" alt="Gun Rental" class="img-fluid" style="width: 60%;">
+      </div>
+      <div class="col-md-4">
+        <p>Helmet – Nu. 100</p>
+        <img src="images/helmet.webp" alt="Helmet" class="img-fluid" style="width: 60%;">
+      </div>
+      <div class="col-md-4">
+        <p>Tactical Jacket – Nu. 100</p>
+        <img src="images/vest.webp" alt="Tactical Jacket" class="img-fluid" style="width: 60%;">
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <a href="rental.html" class="btn btn-outline-dark">See Full List</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Safety Rules Section ===== -->
+<section class="position-relative text-white text-center">
+  <img src="images/safety.jpg" class="img-fluid w-100" style="height: 400px; object-fit: cover;" alt="About Page Banner">
+  <div class="position-absolute top-50 start-50 translate-middle-x" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; text-align: center;">
+    <h2 class="text-white">Safety First</h2>
+    <p class="text-white">Face protection is mandatory. Play fair. Respect others. Safety always comes first.</p>
+    <div class="text-center">
+      <a href="rules.html" class="btn btn-outline-danger">Read All Rules</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Community Section ===== -->
+<section id="community" class="bg-light py-5">
+  <div class="container text-center">
+    <h2>Join Our Community</h2>
+    <p>Stay updated on daily players and activities in our WhatsApp, Facebook, and Instagram groups.</p>
+    <div>
+      <a href="#" class="btn btn-success m-2">WhatsApp</a>
+      <a href="#" class="btn btn-primary m-2">Facebook</a>
+      <a href="#" class="btn btn-danger m-2">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer Section ===== -->
+<footer class="bg-dark text-light text-center p-4">
+  <p>📍 Thimphu, Bhutan</p>
+  <p>© 2025 Druk BB Gun – Building Bhutan’s First Airsoft Community</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

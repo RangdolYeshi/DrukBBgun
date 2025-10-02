@@ -1,0 +1,384 @@
+/* Global Body */
+body {
+  background-color: #000;   /* full black background */
+  color: #fff;              /* white text everywhere */
+}
+
+#hero .hero-content {
+  z-index: 10; /* Ensures the content appears on top */
+}
+
+.carousel-item {
+  position: relative; /* Ensures carousel items are positioned correctly */
+  height: 500px; /* Sets a fixed height for the carousel item */
+  overflow: hidden; /* Prevents the images from overflowing */
+}
+
+.carousel-item img {
+  width: 100%; /* Ensures the image width stretches to fit the container */
+  height: 100%; /* Ensures the image takes the full height of the carousel item */
+  object-fit: cover; /* Maintains the aspect ratio and covers the container area */
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+  color: white !important;
+}
+
+
+/* Navbar */
+.navbar {
+  z-index: 5;
+  background: #333; 
+}
+
+/* Force all sections black */
+section, footer {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Override Bootstrap .bg-light */
+.bg-light {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Fix container text */
+.container {
+  color: #fff;
+}
+
+#games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+#games .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#games .col-md-6 {
+  flex: 0 0 48%;
+}
+
+#games img {
+  width: 100%;
+  height: auto;
+}
+
+
+#about .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .col-md-6 {
+  padding: 15px;
+}
+
+#about .col-md-6 img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about h2 {
+  font-size: 2rem; /* Adjust font size for the heading */
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1.1rem;
+}
+
+#why-choose .fa-2x {
+  margin-bottom: 20px; /* Adjust the space between icon and text */
+}
+
+#why-choose h4 {
+  font-size: 1.1rem;  /* Adjust the text size */
+  margin-top: 10px;    /* Add some space above the text */
+}
+
+
+
+
+/* Specific Styles for About Us Page */
+.about-page {
+  /* General Page Styling */
+  background-color: #000;   /* Dark background for the About Us page */
+}
+
+.about-page .section {
+  padding: 60px 0;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000; /* Ensures dark background */
+}
+
+.about-page .section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-page .section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-page ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.about-page .container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-page .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.about-page .gallery-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about-page .gallery-images img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-page #cta .btn {
+  background-color: #28a745;
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about-page #cta .btn:hover {
+  background-color: #218838;
+}
+
+
+
+/* For the "Who We Are" Section */
+#who-we-are .container {
+  padding: 50px 0;
+}
+
+/* Flexbox Layout for Text and Image */
+#who-we-are .row {
+  display: flex;
+  justify-content: space-between; /* Distribute space between text and image */
+  align-items: center; /* Vertically centers the content */
+}
+
+#who-we-are .text {
+  padding-right: 30px; /* Adds some space between text and image */
+}
+
+#who-we-are .image {
+  display: flex;
+  justify-content: center; /* Centers the image */
+}
+
+#who-we-are .image img {
+  width: 100%;
+  height: auto; /* Ensures image maintains aspect ratio */
+  max-width: 500px; /* Limit the image size */
+  border-radius: 8px; /* Optional: rounds the corners of the image */
+}
+
+/* Rules Page Styles */
+.rules-page h1, .rules-page h2 {
+  font-family: 'Arial', sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+.rules-page .section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rules-page .section-title {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.rules-page .faq-item {
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.faq-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 15px 0;
+  border-radius: 8px;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.faq-question {
+  font-weight: bold;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.faq-answer {
+  color: #ddd;
+  font-size: 16px;
+  padding-left: 20px;
+  border-left: 4px solid #f1f1f1;
+}
+
+.faq-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* Media Query for Large Screens (Desktop) */
+@media (min-width: 1200px) {
+  .section {
+    flex-direction: row; /* Keeps the text and image side by side */
+  }
+
+  .image img {
+    max-width: 500px; /* Keeps the image size in check */
+  }
+}
+
+/* Media Query for Medium Screens (Tablets) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .section {
+    flex-direction: row; /* Keeps the text and image side by side */
+    text-align: center;
+  }
+
+  .image img {
+    max-width: 400px; /* Adjust image size on tablet screens */
+  }
+}
+
+/* Media Query for Small Screens (Mobile) */
+@media (max-width: 767px) {
+  .section {
+    flex-direction: column; /* Stacks text and image vertically */
+    text-align: center; /* Centers text and image */
+  }
+
+  .text {
+    padding-right: 0; /* Removes padding for mobile screens */
+    text-align: center; /* Centers the text */
+  }
+
+  .image img {
+    max-width: 100%; /* Makes image full width on small screens */
+    margin-top: 20px; /* Adds space between text and image */
+  }
+}
+
+/* Extra Small Screens (Very Small Devices) */
+@media (max-width: 480px) {
+  .section {
+    padding: 20px 0; /* Reduces padding on small devices */
+  }
+
+  .image img {
+    max-width: 100%; /* Ensures image fits within small screens */
+  }
+}
+
