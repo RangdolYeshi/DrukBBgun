@@ -108,9 +108,6 @@ section, footer {
   margin-top: 10px;    /* Add some space above the text */
 }
 
-
-
-
 /* Specific Styles for About Us Page */
 .about-page {
   /* General Page Styling */
@@ -221,6 +218,48 @@ section, footer {
   max-width: 500px; /* Limit the image size */
   border-radius: 8px; /* Optional: rounds the corners of the image */
 }
+/* Gallery Section Styles */
+#gallery .event-gallery {
+  margin-bottom: 60px;
+}
+
+#gallery .event-gallery h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#gallery .event-gallery .row {
+  margin-bottom: 20px;
+}
+
+#gallery .event-gallery .col-md-4 {
+  margin-bottom: 20px;
+}
+
+#gallery .event-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#gallery .event-gallery .btn {
+  background-color: #28a745;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#gallery .event-gallery .btn:hover {
+  background-color: #218838;
+}
+
 
 /* Rules Page Styles */
 .rules-page h1, .rules-page h2 {
